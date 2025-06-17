@@ -2,14 +2,6 @@
 
 
 
-Overview
---------
-In this system you will implement a software RAID manager implementing RAID 0 (striping), RAID 1 (mirroring), RAID 4 (fixed parity disk), and RAID 5 (floating parity), and RAID 10 (mirroring + striping). For each strategy, you will implement a RAID manager capable of normal mode operation (no failures), failed-mode operation (working with one failed disk), and recovery (restoring normal mode with a new disk).
-
-
-Rather than assign each of you a set of real disks, we will instead work with virtual disks stored in ordinary files. Thus, we won't be able to accurately measure the performance impact of different RAID systems. Instead, we will simply count the number of accesses per disk and use that as a proxy for performance.
-
-
 Details
 -------
 You will create a simulator program named raidsim.
