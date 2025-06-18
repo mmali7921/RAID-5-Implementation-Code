@@ -39,7 +39,7 @@ Specification
 
 All parameters are mandatory except "verbose". A sample command line:
 
-```raidsim -level 10 -strip 5 -disks 10 -size 10000 -trace input.txt```
+```raidsim -level 5 -strip 5 -disks 10 -size 10000 -trace input.txt```
 
 
 ### Trace file format
